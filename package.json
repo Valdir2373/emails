@@ -1,7 +1,11 @@
 {
+  "scripts": {
+    "dev": "npx tsx src/main.ts"
+  },
   "dependencies": {
     "@types/express": "^5.0.6",
     "express": "^5.2.1",
+    "tsx": "^4.22.4",
     "typescript": "^6.0.3"
   }
 }

@@ -17,5 +17,4 @@ export class ExpressServerAdapter extends ServerPort {
     listen(port: number): void {
         this.app.listen(port, ()=> console.log(port))
     }
-
 }

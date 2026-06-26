@@ -14,6 +14,6 @@ export interface IRes {
 export type middleWare = (req:IReq,res:IRes) => void
 
 export abstract class ServerPort {
-    addRouter(method:methodHttp, path:string, callback:middleWare){}
+    addRouter(method:methodHttp, path:string, callback:middleWare):void{}
     listen(port:number){}
 }
